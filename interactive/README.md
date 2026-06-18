@@ -37,10 +37,12 @@ Both panels share the same Y-axis, so each row in the matrix corresponds exactly
 ##  How to Use
 
 ### Option 1: View on GitHub Pages (recommended)
-* [**Net**](Bosmina_TCS_MedianJoining.html)
-* [**bGMYC4**](bGMYC_interactive_heatmap.html)
-* [**Summary**](Delimitation_heatmap_bgmyc_tree.html)
-* [**Agreement**](Agreement_Matrix.html)
+
+* [**Net**](https://dmitrykarabanov.github.io/Bosmina/interactive/Bosmina_TCS_MedianJoining.html)
+* [**bGMYC4**](https://dmitrykarabanov.github.io/Bosmina/interactive/bGMYC_interactive_heatmap.html)
+* [**Summary**](https://dmitrykarabanov.github.io/Bosmina/interactive/Delimitation_heatmap_bgmyc_tree.html)
+* [**Agreement**](https://dmitrykarabanov.github.io/Bosmina/interactive/Agreement_Matrix.html)
+
 
 ### Option 2: Open locally
 1. Download the `.html` file and the additional directory
