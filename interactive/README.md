@@ -26,7 +26,7 @@ Our main interactive figure combines two synchronized views:
 
 ###  Right Panel: Agreement Matrix
 - **Heatmap** showing pairwise agreement between delimitation method(s)
-- **Color scale:** from 0% agreement to 100% agreement
+- **Color scale** from 0% agreement to 100% agreement
 - **Hover** any cell to see taxon names / agreement percentage 
 
 ###  Synchronization
@@ -38,10 +38,10 @@ Both panels share the same Y-axis, so each row in the matrix corresponds exactly
 
 ### Option 1: View on GitHub Pages (recommended)
 
-- [**Interactive Network**](interactive/Bosmina_TCS_MedianJoining.html)
-- [**bGMYC4 Heatmap and Tree**](interactive/bGMYC_interactive_heatmap.html)
-- [**Summary Delimitation**](interactive/Delimitation_heatmap_bgmyc_tree.html)
-- [**Agreement Matrix**](interactive/Agreement_Matrix.html)
+- [**Interactive Network**](./Bosmina_TCS_MedianJoining.html)
+- [**bGMYC4 Heatmap and Tree**](./bGMYC_interactive_heatmap.html)
+- [**Summary Delimitation**](./Delimitation_heatmap_bgmyc_tree.html)
+- [**Agreement Matrix**](./Agreement_Matrix.html)
 
 ### Option 2: Open locally
 1. Download the `.html` file and the additional directory
