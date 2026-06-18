@@ -1,11 +1,11 @@
-# 🎭 Interactive Visualizations
+#  Interactive Visualizations
 
 This directory contains all interactive HTML visualizations supporting the integrative species delimitation analysis of *Bosmina* (Cladocera: Bosminidae).
 Each visualization is a **self-contained HTML file** that can be opened directly in any modern web browser. No special software or internet connection is required.
 
 ---
 
-## 📋 Available Visualizations
+##  Available Visualizations
 
 | # | Visualization | Main file | Description |
 |---|---------------|------|-------------|
@@ -17,15 +17,15 @@ Each visualization is a **self-contained HTML file** that can be opened directly
 
 ---
 
-## 🎯 Featured Visualization
+##  Featured Visualization
 
 Our main interactive figure combines two synchronized views:
 
-### 🔹 Left Panel: Clade-Colored Phylogeny
+###  Left Panel: Clade-Colored Phylogeny
 - **Branches colored** by major clades 
 - **Hover** any branch to see taxon name / clade assignment / branch length
 
-### 🔹 Right Panel: Agreement Matrix
+###  Right Panel: Agreement Matrix
 - **Heatmap** showing pairwise agreement between delimitation method(s)
 - **Color scale:** drom 0% agreement to 100% agreement
 - **Hover** any cell to see taxon names / agreement percentage 
@@ -35,7 +35,7 @@ Both panels share the same Y-axis, so each row in the matrix corresponds exactly
 
 ---
 
-## 💻 How to Use
+##  How to Use
 
 ### Option 1: View on GitHub Pages (recommended)
 Visit: **[Net](https://dmitrykarabanov.github.io/Bosmina_delimitaions/interactive/Bosmina_TCS_MedianJoining.html)**
@@ -59,15 +59,15 @@ Visit: **[Agreement](https://dmitrykarabanov.github.io/Bosmina_delimitaions/inte
 
 ---
 
-## 📂 Related Resources
+##  Related Resources
 
-- 📊 **[Raw Data](../data/)** — Input files used to generate these visualizations
-- 💻 **[Scripts](../scripts/)** — Source code (R) for reproducing all figures
-- 📈 **[Results](../results/)** — Static tables and statistical outputs
+-  **[Raw Data](../data/)** — Input files used to generate these visualizations
+-  **[Scripts](../scripts/)** — Source code (R) for reproducing all figures
+-  **[Results](../results/)** — Static tables and statistical outputs
 
 ---
 
-## ❓ Troubleshooting
+##  Troubleshooting
 
 **Q: The visualization doesn't load.**  
 A: Try a different browser or clear your cache. Some corporate networks block large HTML files.
