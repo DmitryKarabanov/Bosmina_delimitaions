@@ -1,26 +1,15 @@
 # 📊 Raw Data
 
-This directory contains all input data and delimitation results.
+This directory contains all input data.
 
 ## Contents
 
-- **Delimitation_*.csv** — Results from individual delimitation methods
-- **alignments/** — Sequence alignments (FASTA format)
-- **trees/** — Input phylogenetic trees
-- **metadata.csv** — Sample metadata and annotations
-
-## File Descriptions
-
-| File | Description | Format |
-|------|-------------|--------|
-| `Delimitation_abgd.csv` | ABGD delimitation results | CSV (semicolon-separated) |
-| `Delimitation_asap.csv` | ASAP delimitation results | CSV |
-| `Delimitation_bgmyc.csv` | bGMYC delimitation results | CSV |
-| ... | ... | ... |
+- **resources/** — Sequence alignments and list of IDs
+- **input/** — Input files
 
 ## Usage
 
-These files were processed using the scripts in `/scripts/` directory. For reproducibility, use the same R environment and package versions.
+These files are intended for further processing. For ease of playback, use the same software, the same "R" and "Python" environments, and the same package versions
 
 ---
 
