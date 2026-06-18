@@ -14,7 +14,7 @@ Input files
 
 ## Usage
 
-These files are intended for further processing. For ease of playback, use the same software, the same "R" and "Python" environments, and the same package versions
+These files are intended for further processing. For reproducibility, please use the same R/Python environments and package versions.
 
 ---
 
