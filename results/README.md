@@ -1,19 +1,19 @@
-# 📈 Analysis Results
+#  Analysis Results
 
 This directory contains all outputs from the integrative delimitation analysis.
 
 ## Subdirectories
 
-### 📋 [Delimitation Results](delimitation/)
+###  [Delimitation Results](delimitation/)
 Summary tables, congruence matrices, and method-specific outputs.
 
-### 📉 [Statistics](stat/)
+###  [Statistics](stat/)
 Genetic diversity.
 
-### 🌳 [Phylogenetic Trees](trees/)
+###  [Phylogenetic Trees](trees/)
 Newick and Nexus tree files with clade annotations.
 
-### 🎭 [Interactive Visualizations](interactive/)
+###  [Interactive Visualizations](interactive/)
 Interactive HTML files for web viewing.
 
 ## Featured Files
@@ -25,7 +25,7 @@ Interactive HTML files for web viewing.
 
 ---
 
-## 📂 Related Resources
+##  Related Resources
 
 - 📊 **[Raw Data](../data/)** — Input files used to generate these visualizations
 - 💻 **[Scripts](../scripts/)** — Source code (R) for reproducing all figures
