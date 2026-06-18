@@ -46,10 +46,10 @@ Welcome to the supplementary materials repository for integrative species delimi
 <p><strong>Location:</strong> <code>/results/</code></p>
 <p>Comprehensive analysis outputs including tables, figures, and interactive visualizations.</p>
 <ul style="margin-bottom: 20px;">
-<li>Delimitation summaries</li>
-<li>Statistical reports</li>
-<li>Phylogenetic trees</li>
-<li><strong>Interactive visualizations</strong></li>
+<li><a href="https://github.com/DmitryKarabanov/Bosmina_delimitaions/tree/main/results/delimitation">Delimitation summaries</a></li>
+<li><a href="https://github.com/DmitryKarabanov/Bosmina_delimitaions/tree/main/results/statistics">Statistical reports</a></li>
+<li><a href="https://github.com/DmitryKarabanov/Bosmina_delimitaions/tree/main/results/trees">Phylogenetic trees</a></li>
+<li><a href="https://github.com/DmitryKarabanov/Bosmina_delimitaions/tree/main/results/interactive"><strong>Interactive visualizations</strong></a></li>
 </ul>
 <a href="https://github.com/DmitryKarabanov/Bosmina_delimitaions/tree/main/results" style="display: inline-block; background: #4DAF4A; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; text-align: center; width: 100%; box-sizing: border-box;">Explore Results →</a>
 </div>
@@ -58,35 +58,61 @@ Welcome to the supplementary materials repository for integrative species delimi
 
 ---
 
-## 📊 Results Breakdown
+## 🎭 Interactive Visualizations
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 40px 0;">
+Explore all interactive figures and dashboards from this study. Each visualization is fully zoomable and provides detailed tooltips with taxon names and analysis metrics.
 
-<div style="border: 2px solid #FF7F00; border-radius: 12px; padding: 20px; background: #fff;">
-<h4 style="color: #FF7F00; margin-top: 0;">📋 Delimitation Results</h4>
-<p>Summary tables and congruence matrices for all delimitation methods.</p>
-<a href="https://github.com/DmitryKarabanov/Bosmina_delimitaions/tree/main/results/delimitation" style="color: #FF7F00; font-weight: bold; text-decoration: none;">View Results →</a>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin: 40px 0;">
+
+<div style="border: 3px solid #984EA3; border-radius: 15px; padding: 25px; background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%); box-shadow: 0 4px 8px rgba(152,78,163,0.2);">
+<h4 style="color: #984EA3; margin-top: 0;">🌳 Agreement Matrix + Phylogeny</h4>
+<p>Interactive heatmap showing congruence between delimitation methods, synchronized with clade-colored phylogenetic tree.</p>
+<ul style="font-size: 0.9em; margin-bottom: 20px;">
+<li>Hover taxa for agreement details</li>
+<li>Colors represent major clades</li>
+<li>Fully zoomable interface</li>
+</ul>
+<a href="results/interactive/Delimitation_heatmap_bgmyc_tree.html" style="display: inline-block; background: #984EA3; color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold; text-align: center; width: 100%; box-sizing: border-box;">Open →</a>
 </div>
 
-<div style="border: 2px solid #A65628; border-radius: 12px; padding: 20px; background: #fff;">
-<h4 style="color: #A65628; margin-top: 0;">📉 Statistics</h4>
-<p>Statistical summaries, congruence scores, and method comparisons.</p>
-<a href="https://github.com/DmitryKarabanov/Bosmina_delimitaions/tree/main/results/statistics" style="color: #A65628; font-weight: bold; text-decoration: none;">View Statistics →</a>
+<div style="border: 3px solid #FF7F00; border-radius: 15px; padding: 25px; background: linear-gradient(135deg, #fff5f0 0%, #ffe8d6 100%); box-shadow: 0 4px 8px rgba(255,127,0,0.2);">
+<h4 style="color: #FF7F00; margin-top: 0;">📊 Congruence Summary</h4>
+<p>Interactive summary of agreement between all delimitation methods with detailed statistics.</p>
+<ul style="font-size: 0.9em; margin-bottom: 20px;">
+<li>Method comparison charts</li>
+<li>Agreement scores visualization</li>
+<li>Filterable by clade</li>
+</ul>
+<a href="results/interactive/congruence_summary.html" style="display: inline-block; background: #FF7F00; color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold; text-align: center; width: 100%; box-sizing: border-box;">Open →</a>
 </div>
 
-<div style="border: 2px solid #F781BF; border-radius: 12px; padding: 20px; background: #fff;">
-<h4 style="color: #F781BF; margin-top: 0;">🌳 Phylogenetic Trees</h4>
-<p>Newick and Nexus tree files with clade annotations.</p>
-<a href="https://github.com/DmitryKarabanov/Bosmina_delimitaions/tree/main/results/trees" style="color: #F781BF; font-weight: bold; text-decoration: none;">View Trees →</a>
+<div style="border: 3px solid #A65628; border-radius: 15px; padding: 25px; background: linear-gradient(135deg, #f5f0e8 0%, #ede4d3 100%); box-shadow: 0 4px 8px rgba(166,86,40,0.2);">
+<h4 style="color: #A65628; margin-top: 0;">🌲 Phylogenetic Tree Explorer</h4>
+<p>Interactive phylogenetic tree with clade annotations and branch support values.</p>
+<ul style="font-size: 0.9em; margin-bottom: 20px;">
+<li>Zoomable tree structure</li>
+<li>Clade color coding</li>
+<li>Branch length information</li>
+</ul>
+<a href="results/interactive/phylo_tree_interactive.html" style="display: inline-block; background: #A65628; color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold; text-align: center; width: 100%; box-sizing: border-box;">Open →</a>
 </div>
 
-<div style="border: 2px solid #999999; border-radius: 12px; padding: 20px; background: #fff;">
-<h4 style="color: #666; margin-top: 0;">🎭 Interactive Figures</h4>
-<p>Plotly-based interactive visualizations and dashboards.</p>
-<a href="https://github.com/DmitryKarabanov/Bosmina_delimitaions/tree/main/results/interactive" style="color: #666; font-weight: bold; text-decoration: none;">Browse Interactive →</a>
+<div style="border: 3px solid #F781BF; border-radius: 15px; padding: 25px; background: linear-gradient(135deg, #fff0f7 0%, #ffe4f0 100%); box-shadow: 0 4px 8px rgba(247,129,191,0.2);">
+<h4 style="color: #F781BF; margin-top: 0;">📈 Species Accumulation</h4>
+<p>Interactive species accumulation curves showing how delimitation results change with method number.</p>
+<ul style="font-size: 0.9em; margin-bottom: 20px;">
+<li>Dynamic curve plotting</li>
+<li>Method addition timeline</li>
+<li>Confidence intervals</li>
+</ul>
+<a href="results/interactive/species_accumulation.html" style="display: inline-block; background: #F781BF; color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px; font-weight: bold; text-align: center; width: 100%; box-sizing: border-box;">Open →</a>
 </div>
 
 </div>
+
+<p style="text-align: center; margin-top: 20px;">
+<a href="https://github.com/DmitryKarabanov/Bosmina_delimitaions/tree/main/results/interactive" style="color: #666; text-decoration: none; font-size: 0.9em;">📁 Browse all interactive files →</a>
+</p>
 
 ---
 
