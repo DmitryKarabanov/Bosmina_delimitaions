@@ -10,7 +10,7 @@ Sequence alignments and list of IDs
 
 **[Input Files](input/)**
 
-Input files
+Parameter files, configuration and auxiliary tables used by the scripts
 
 ## Usage
 
