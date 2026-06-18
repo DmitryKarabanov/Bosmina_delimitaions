@@ -5,7 +5,7 @@ Complete source code for all computational analyses.
 ## Scripts
 
 ### Main Analysis
-- **`Heatmap_CoMa_NEW.R`** — Agreement matrix calculation and interactive visualization (Plotly + ggtree)
+- **`bGMYC_interactive.R`** — Agreement matrix calculation and interactive visualization (Plotly + ggtree)
 
 ### Data Processing
 - Scripts for data cleaning and preparation
@@ -22,4 +22,12 @@ Complete source code for all computational analyses.
 ## Usage
 
 ```r
-source("scripts/Heatmap_CoMa_NEW.R")
+source("scripts/bGMYC_interactive.R")
+```
+
+## Output
+Scripts generate results in /results/ directory.
+
+---
+
+← [Back to main page](../index.md)
