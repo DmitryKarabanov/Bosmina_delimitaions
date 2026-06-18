@@ -29,7 +29,7 @@ Our main interactive figure combines two synchronized views:
 - **Color scale:** drom 0% agreement to 100% agreement
 - **Hover** any cell to see taxon names / agreement percentage 
 
-### 🔹 Synchronization
+###  Synchronization
 Both panels share the same Y-axis, so each row in the matrix corresponds exactly to a tip on the tree.
 
 ---
