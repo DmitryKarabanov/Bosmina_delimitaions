@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v5
         
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v6
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
           bundler-cache: true
@@ -30,7 +30,7 @@ jobs:
           
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v6
+        uses: actions/configure-pages@v5
         
       - name: Build with Jekyll
         run: |
