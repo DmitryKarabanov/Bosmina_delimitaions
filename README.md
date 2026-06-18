@@ -40,4 +40,6 @@ Interactive visualizations and dashboards.
 
 For questions about the data, scripts, or analysis, welcome to [GitHub](https://github.com/DmitryKarabanov/).
 
+[![Powered by Qwen](https://img.shields.io/badge/Powered%20by-Qwen-6366f1?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTQuNTkgOC4yNkwyMSA5LjI3TDE2LjE4IDEzLjk3TDE3LjM0IDIwLjczTDEyIDE3LjU0TDYuNjYgMjAuNzNMNy44MiAxMy45N0wzIDkuMjdMOS40MSA4LjI2TDEyIDJaIiBmaWxsPSIjZmZmIi8+Cjwvc3ZnPg==)](https://qwen.ai/)
+
 _This supplementary material is openly available under the GNU GPL v3.0 License. Last updated: 2026._
