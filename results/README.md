@@ -27,6 +27,6 @@ Interactive HTML files for web viewing.
 
 ##  Related Resources
 
-- 📊 **[Raw Data](../data/)** — Input files used to generate these visualizations
-- 💻 **[Scripts](../scripts/)** — Source code (R) for reproducing all figures
-- 📈 **[Interactive](../interactive/)** — Static tables and statistical outputs
+-  **[Raw Data](../data/)** — Input files used to generate these visualizations
+-  **[Scripts](../scripts/)** — Source code (R) for reproducing all figures
+-  **[Interactive](../interactive/)** — Static tables and statistical outputs
