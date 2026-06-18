@@ -8,29 +8,27 @@ Welcome to the supplementary materials repository for integrative species delimi
 
 ##  Structure
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 40px 0;">
+# Data 
+Raw data (sequences and pesources table).
 
-<div style="border: 2px solid #A65628; border-radius: 12px; padding: 20px; background: #fff;">
-<h4 style="color: #A65628; margin-top: 0;"> Data </h4>
-<p>Raw data (sequences and pesources table).</p>
 <a href="https://github.com/DmitryKarabanov/Bosmina_delimitaions/tree/main/data" style="color: #A65628; font-weight: bold; text-decoration: none;">View Data →</a>
 </div>
 
-<div style="border: 2px solid #FF7F00; border-radius: 12px; padding: 20px; background: #fff;">
-<h4 style="color: #FF7F00; margin-top: 0;"> Results </h4>
-<p>Summary tables and congruence matrices for all delimitation methods.</p>
+# Results 
+Summary tables and congruence matrices for all delimitation methods.
+
 <a href="https://github.com/DmitryKarabanov/Bosmina_delimitaions/tree/main/results" style="color: #FF7F00; font-weight: bold; text-decoration: none;">View Results →</a>
 </div>
 
-<div style="border: 2px solid #F781BF; border-radius: 12px; padding: 20px; background: #fff;">
-<h4 style="color: #F781BF; margin-top: 0;"> Scrips </h4>
-<p>Complete source code for all computational analyses and visualization pipelines.</p>
+## Scrips 
+Complete source code for all computational analyses and visualization pipelines.
+
 <a href="https://github.com/DmitryKarabanov/Bosmina_delimitaions/tree/main/scripts" style="color: #F781BF; font-weight: bold; text-decoration: none;">View Scripts →</a>
 </div>
 
-<div style="border: 2px solid #999999; border-radius: 12px; padding: 20px; background: #fff;">
-<h4 style="color: #666; margin-top: 0;"> Interactive </h4>
-<p>Interactive visualizations and dashboards.</p>
+## Interactive
+nteractive visualizations and dashboards.
+
 <a href="https://github.com/DmitryKarabanov/Bosmina_delimitaions/tree/main/interactive" style="color: #666; font-weight: bold; text-decoration: none;">View Interactive →</a>
 </div>
 
