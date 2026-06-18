@@ -24,7 +24,7 @@ These files are intended for further processing. For reproducibility, please use
 -  **[Results](../results/)** — Static tables and statistical outputs
   
 
-[← Back to Main Page](../) 
+[← Back to Main Page](../README.md)
 
 
 _This supplementary material is openly available under the GNU GPL v3.0 License. Last updated: 2026._
