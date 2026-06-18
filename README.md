@@ -12,7 +12,7 @@ Welcome to the supplementary materials repository for integrative species delimi
 
 <div style="border: 2px solid #A65628; border-radius: 12px; padding: 20px; background: #fff;">
 <h4 style="color: #A65628; margin-top: 0;"> Data </h4>
-<p>Raw data.</p>
+<p>Raw data (sequences and pesources table).</p>
 <a href="https://github.com/DmitryKarabanov/Bosmina_delimitaions/tree/main/data" style="color: #A65628; font-weight: bold; text-decoration: none;">View Data →</a>
 </div>
 
@@ -24,7 +24,7 @@ Welcome to the supplementary materials repository for integrative species delimi
 
 <div style="border: 2px solid #F781BF; border-radius: 12px; padding: 20px; background: #fff;">
 <h4 style="color: #F781BF; margin-top: 0;"> Scrips </h4>
-<p>Scripts.</p>
+<p>Complete source code for all computational analyses and visualization pipelines.</p>
 <a href="https://github.com/DmitryKarabanov/Bosmina_delimitaions/tree/main/scripts" style="color: #F781BF; font-weight: bold; text-decoration: none;">View Scripts →</a>
 </div>
 
