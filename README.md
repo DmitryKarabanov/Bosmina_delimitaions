@@ -29,9 +29,9 @@ Welcome to the supplementary materials repository for integrative species delimi
 </div>
 
 <div style="border: 2px solid #999999; border-radius: 12px; padding: 20px; background: #fff;">
-<h4 style="color: #666; margin-top: 0;"> Visualization </h4>
+<h4 style="color: #666; margin-top: 0;"> Interactive </h4>
 <p>Interactive visualizations and dashboards.</p>
-<a href="https://github.com/DmitryKarabanov/Bosmina_delimitaions/tree/main/results/interactive" style="color: #666; font-weight: bold; text-decoration: none;">Browse Visualization →</a>
+<a href="https://github.com/DmitryKarabanov/Bosmina_delimitaions/tree/main/interactive" style="color: #666; font-weight: bold; text-decoration: none;">View Interactive →</a>
 </div>
 
 </div>
