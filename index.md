@@ -58,32 +58,6 @@ Welcome to the supplementary materials repository for integrative species delimi
 
 ---
 
-## 🌟 Featured Interactive Visualization
-
-<div style="border: 4px solid #984EA3; border-radius: 20px; padding: 30px; background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%); box-shadow: 0 8px 16px rgba(152,78,163,0.2); margin: 40px 0;">
-
-<h2 style="color: #984EA3; margin-top: 0;">🎨 Agreement Matrix + Clade-colored Phylogeny</h2>
-
-<p style="font-size: 1.1em; line-height: 1.6;">
-Explore the congruence between multiple species delimitation methods through our interactive heatmap visualization. The matrix is synchronized with a phylogenetic tree colored by major clades.
-</p>
-
-<div style="background: white; padding: 20px; border-radius: 10px; margin: 20px 0;">
-<h4 style="margin-top: 0; color: #666;">✨ Features:</h4>
-<ul style="line-height: 1.8;">
-<li><strong>Hover tooltips</strong> showing taxon names, agreement percentages, and method counts</li>
-<li><strong>Color-coded clades</strong>: <span style="color: #E41A1C;">■</span> Eubosmina, <span style="color: #377EB8;">■</span> Liederobosmina, <span style="color: #4DAF4A;">■</span> Lunobosmina, <span style="color: #984EA3;">■</span> Colombian clade</li>
-<li><strong>Fully zoomable and interactive</strong> interface</li>
-<li><strong>Lightweight HTML</strong> (~5 MB) for fast loading</li>
-</ul>
-</div>
-
-<a href="results/interactive/Delimitation_heatmap_bgmyc_tree.html" style="display: inline-block; background: #984EA3; color: white; padding: 15px 40px; text-decoration: none; border-radius: 10px; font-weight: bold; font-size: 1.2em; box-shadow: 0 4px 8px rgba(152,78,163,0.3);">🚀 Open Interactive Visualization</a>
-
-</div>
-
----
-
 ## 📊 Results Breakdown
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 40px 0;">
