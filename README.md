@@ -7,25 +7,25 @@ Welcome to the supplementary materials repository for integrative species delimi
 
 # Structure
 
-## Data
+### Data
 Raw data (sequences and resources table).
 
-[View Data →](data/)
+## [View Data →](data/)
 
-## Results
+### Results
 Summary tables and congruence matrices for all delimitation methods.
 
-[View Results →](results/)
+## [View Results →](results/)
 
-## Scripts
+### Scripts
 Complete source code for all computational analyses and visualization pipelines.
 
-[View Scripts →](scripts/)
+## [View Scripts →](scripts/)
 
-## Interactive
+### Interactive
 Interactive visualizations and dashboards.
 
-[View Interactive →](interactive/)
+## [View Interactive →](interactive/)
 
 ---
 
