@@ -15,6 +15,6 @@ These files are intended for further processing. For ease of playback, use the s
 
 ## 📂 Related Resources
 
-- 📊 **[Raw Data](../data/)** — Input files used to generate these visualizations
+- 📊 **[Interactive](../interactive/)** — Input files used to generate these visualizations
 - 💻 **[Scripts](../scripts/)** — Source code (R) for reproducing all figures
 - 📈 **[Results](../results/)** — Static tables and statistical outputs
