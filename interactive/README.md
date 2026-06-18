@@ -26,7 +26,7 @@ Our main interactive figure combines two synchronized views:
 
 ###  Right Panel: Agreement Matrix
 - **Heatmap** showing pairwise agreement between delimitation method(s)
-- **Color scale:** drom 0% agreement to 100% agreement
+- **Color scale:** from 0% agreement to 100% agreement
 - **Hover** any cell to see taxon names / agreement percentage 
 
 ###  Synchronization
