@@ -4,11 +4,11 @@ This directory contains all input data.
 
 ## Contents
 
-**[Raw Data](https://github.com/DmitryKarabanov/Bosmina_delimitations/tree/main/data/resources)**
+**[Raw Data](../resources/)**
 
 Sequence alignments and list of IDs
 
-**[Input Files](https://github.com/DmitryKarabanov/Bosmina_delimitations/tree/main/data/input)**
+**[Input Files](../input/)**
 
 Input files
 
