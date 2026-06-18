@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 title: Bosmina Integrative Delimitation
 description: Supplementary Materials & Interactive Visualizations
+baseurl: "/Bosmina_delimitaions"
+url: "https://dmitrykarabanov.github.io"
