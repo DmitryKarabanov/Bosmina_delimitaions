@@ -27,7 +27,7 @@ Newick, nexus and high-resolution illustrations of tree files with clade annotat
 ##  Related Resources
 -  **[Data](../data/)** — Input files used to generate these visualizations
 -  **[Scripts](../scripts/)** — Source code for reproducing all figures
--  **[Interactive](../interactive/)** — Source code (R) for reproducing all figures
+-  **[Interactive](../interactive/)** — Interactive HTML visualizations
 
 [← Back to Main Page](../README.md)
 
