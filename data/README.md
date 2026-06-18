@@ -24,7 +24,5 @@ These files are intended for further processing. For ease of playback, use the s
 
 [← Back to Main Page](../README.md)
 
----
-### [GitHub repository](https://github.com/DmitryKarabanov/Bosmina_delimitaions/tree/main/data)
 
 _This supplementary material is openly available under the GNU GPL v3.0 License. Last updated: 2026._
