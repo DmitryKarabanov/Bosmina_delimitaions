@@ -1,12 +1,12 @@
 
-# 🧬 Bosmina Integrative Delimitation
+#  Bosmina Integrative Delimitation
 **Supplementary Materials & Interactive Visualizations**
 
 Welcome to the supplementary materials repository for integrative species delimitation analysis of *Bosmina* (Cladocera: Bosminidae). This repository contains all data, scripts, and results supporting our research.
 
 ---
 
-## 📊 Results Breakdown
+##  Results Breakdown
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 40px 0;">
 
@@ -38,7 +38,7 @@ Welcome to the supplementary materials repository for integrative species delimi
 
 ---
 
-## 📚 About This Study
+##  About This Study
 
 | **Organisms** | *Bosmina* spp. (Cladocera: Bosminidae) |
 |---------------|----------------------------------------|
@@ -49,7 +49,7 @@ Welcome to the supplementary materials repository for integrative species delimi
 
 ---
 
-## 👨‍🔬 Contact
+##  Contact
 
 **Dmitry Karabanov**
 
