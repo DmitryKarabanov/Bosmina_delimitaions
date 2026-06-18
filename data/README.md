@@ -19,10 +19,9 @@ These files are intended for further processing. For reproducibility, please use
 ---
 
 ##  Related Resources
--  **[Scripts](../scripts/)** — Input files used to generate these visualizations
--  **[Interactive](../interactive/)** — Source code (R) for reproducing all figures
+-  **[Scripts](../scripts/)** — Source code for reproducing all figures
 -  **[Results](../results/)** — Static tables and statistical outputs
-  
+-  **[Interactive](../interactive/)** — Interactive HTML visualizations 
 
 [← Back to Main Page](../README.md)
 
