@@ -4,12 +4,12 @@ Complete source code for all computational analyses.
 
 ## Scripts
 
-**[Delimitation](https://github.com/DmitryKarabanov/Bosmina_delimitations/tree/main/scripts/delimitaion/)**
+**[Delimitation](delimitaion/)**
 - **`bGMYC_interactive.R`** — Agreement matrix calculation and interactive visualization (Plotly + ggtree)
 - **`locMin_delimitation.R`** — Calculation of local minima (locMin), two distance variants
 - ...
 
-**[Genetic diversity and Net](https://github.com/DmitryKarabanov/Bosmina_delimitations/tree/main/scripts/genepop/)**
+**[Genetic diversity and Net](genepop/)**
 - Scripts for calculating genetic diversity and constructing an interactive haplotype network
 
 ## Requirements
