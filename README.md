@@ -3,6 +3,7 @@
 
 Welcome to the supplementary materials repository for integrative species delimitation analysis of *Bosmina* (Cladocera: Bosminidae). This repository contains all data, scripts, and results supporting our research.
 
+![License](https://img.shields.io/badge/license-GPLv3-blue)
 ---
 
 # Structure
@@ -28,7 +29,7 @@ Interactive visualizations and dashboards.
 [**View Interactive →**](interactive/README.md)
 
 ---
-**Unwrap your _gift_ on _Git_ Hub and streamline species delimitation:**
+**Unzip the** gift **on** Git**Hub, unpack the species: a streamlined delimitation pipeline**
 
 [bGMYC4 package](https://github.com/DmitryKarabanov/bGMYC4)
 
@@ -42,4 +43,3 @@ For questions about the data, scripts, or analysis, welcome to [ResearchGate](ht
 
 [![Powered by Qwen](https://img.shields.io/badge/Powered%20by-Qwen-6366f1?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMTQuNTkgOC4yNkwyMSA5LjI3TDE2LjE4IDEzLjk3TDE3LjM0IDIwLjczTDEyIDE3LjU0TDYuNjYgMjAuNzNMNy44MiAxMy45N0wzIDkuMjdMOS40MSA4LjI2TDEyIDJaIiBmaWxsPSIjZmZmIi8+Cjwvc3ZnPg==)](https://qwen.ai/)
 
-![License](https://img.shields.io/badge/license-GPLv3-blue)
