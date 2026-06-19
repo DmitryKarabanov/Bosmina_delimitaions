@@ -14,8 +14,8 @@ NEXUS_FILE = "bosmina_popart.nex"
 OUTPUT_HTML = "Bosmina_TCS_MedianJoining.html"
 TCS_CONFIDENCE = 0.90  # 95% confidence limit (adjusted to 0.90 as in original code logic)
 MJ_EPSILON = 1.0       # 0 = maximum network simplification
-MAX_MEDIANS = 50       # Limit on the number of median vectors
-MAX_MJ_ITERATIONS = 100 # Protection from infinite loops
+MAX_MEDIANS = 14       # Limit on the number of median vectors
+MAX_MJ_ITERATIONS = 1000 # Protection from infinite loops
 
 IUPAC = {
     'A': {'A'}, 'C': {'C'}, 'G': {'G'}, 'T': {'T'}, 'U': {'T'},
@@ -580,26 +580,48 @@ print(f"Added exactly {bridge_edges_count} MST bridges - now ALL visible cluster
 # 9. HTML SAVING WITH LEGEND
 # ==========================================
 print("Generating final HTML...")
+
 legend_html = f"""
-<div style="position: fixed; top: 20px; right: 20px; background: rgba(255,255,255,0.95); 
-border: 1px solid #ccc; padding: 15px; border-radius: 8px; font-family: Arial, sans-serif; 
-box-shadow: 2px 2px 8px rgba(0,0,0,0.15); z-index: 1000; font-size: 13px; color: #333; max-width: 240px;">
-    <b style="font-size: 14px;">Regions:</b><br>
-<span style="color:#1f77b4;">&#9679;</span> North America<br>
-<span style="color:#d62728;">&#9679;</span> South America<br>
-<span style="color:#8c564b;">&#9679;</span> Europe<br>
-<span style="color:#f1c40f;">&#9679;</span> Asia<br>
-<span style="color:#2ca02c;">&#9679;</span> Australia<br>
-    <hr style="margin: 12px 0; border: 0; border-top: 2px solid #ccc;">
-    <b>Algorithm:</b> Median-Joining<br>
-    <b>Threshold:</b> TCS {int(TCS_CONFIDENCE*100)}%<br>
-    <b>Parsimony limit:</b> {TCS_LIMIT} mut.<br>
-    <b>Unique haplotypes:</b> {len(unique_haps)}<br>
-    <b>Median vectors:</b> {median_counter}<br>
-    <hr style="margin: 8px 0; border: 0; border-top: 1px solid #ccc;">
-    <b>Size</b> = frequency<br>
-    <b style="color:#666;">&#9711; Dashed</b> = median<br>
-    <i style="font-size:11px; color:#888;">(ancestral haplotype)</i>
+<div style="position: fixed; top: 20px; right: 20px; background: rgba(255,255,255,0.97); 
+border: 1px solid #ccc; padding: 18px 22px; border-radius: 10px; font-family: Arial, sans-serif; 
+box-shadow: 2px 4px 12px rgba(0,0,0,0.2); z-index: 1000; font-size: 18px; color: #222; min-width: 260px; line-height: 1.4;">
+    
+    <b style="font-size: 22px; display: block; margin-bottom: 10px; line-height: 1.0;">Regions:</b>
+    
+    <div style="line-height: 0.75; margin-bottom: 4px;">
+        <span style="color:#1f77b4; font-size: 48px; vertical-align: middle;">&#9679;</span> 
+        <span style="vertical-align: middle;">North America</span><br>
+        
+        <span style="color:#d62728; font-size: 48px; vertical-align: middle;">&#9679;</span> 
+        <span style="vertical-align: middle;">South America</span><br>
+        
+        <span style="color:#8c564b; font-size: 48px; vertical-align: middle;">&#9679;</span> 
+        <span style="vertical-align: middle;">Europe</span><br>
+        
+        <span style="color:#f1c40f; font-size: 48px; vertical-align: middle;">&#9679;</span> 
+        <span style="vertical-align: middle;">Asia</span><br>
+        
+        <span style="color:#2ca02c; font-size: 48px; vertical-align: middle;">&#9679;</span> 
+        <span style="vertical-align: middle;">Australia</span>
+    </div>
+
+    <hr style="margin: 12px 0; border: 0; border-top: 2px solid #ddd;">
+    
+    <div style="font-size: 15px; line-height: 1.5;">
+        <b>Algorithm:</b> Median-Joining<br>
+        <b>Threshold:</b> TCS {int(TCS_CONFIDENCE*100)}%<br>
+        <b>Parsimony limit:</b> {TCS_LIMIT} mut.<br>
+        <b>Unique haplotypes:</b> {len(unique_haps)}<br>
+        <b>Median vectors:</b> {median_counter}<br>
+    </div>
+
+    <hr style="margin: 12px 0; border: 0; border-top: 1px solid #ddd;">
+    
+    <div style="font-size: 15px; line-height: 1.5;">
+        <b>Size</b> = frequency<br>
+        <b style="color:#666;">&#9711; Dashed</b> = median vector<br>
+        <i style="font-size:13px; color:#888;">(ancestral haplotype)</i>
+    </div>
 </div>
 """
 
@@ -611,4 +633,3 @@ with open(OUTPUT_HTML, "w", encoding="utf-8") as f:
 
 print(f"Done! File '{OUTPUT_HTML}' is ready in your browser.")
 print(f"Summary: {len(unique_haps)} real haplotypes + {median_counter} median vectors.")
-print(f"Medians are displayed as white dashed circles and labeled as mv1, mv2, etc.")
