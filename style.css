@@ -3,11 +3,11 @@
    ========================================= */
 
 :root {
-    --primary-blue: #155799;
-    --primary-green: #159957;
+    --primary-blue: #155799c9;
+    --primary-green: #159957d2;
     --text-color: #606c71;
     --heading-color: #159957;
-    --bg-color: #f8fdfb;
+    --bg-color: #f5fffb;
     --max-width: 64rem;
 }
 
@@ -19,7 +19,7 @@
 
 body {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--bg-color);
@@ -117,11 +117,11 @@ body {
     display: inline-block;
     padding: 0.75rem 1.5rem;
     margin: 0.5rem 0.5rem 0.5rem 0;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-weight: 700;
     color: var(--primary-blue);
     background-color: transparent;
-    border: 2px solid var(--primary-blue);
+    border: 3px solid var(--primary-blue);
     border-radius: 0.3rem;
     text-decoration: none;
     transition: all 0.2s;
@@ -129,9 +129,12 @@ body {
 
 .btn:hover {
     color: #fff;
-    background-color: var(--primary-blue);
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(21, 87, 153, 0.3);
+    background: linear-gradient(120deg, var(--primary-blue), var(--primary-green));
+    border-color: transparent;
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 
+        0 8px 20px rgba(21, 87, 153, 0.4),
+        0 4px 10px rgba(21, 153, 87, 0.3);
 }
 
 .btn-gradient {
@@ -141,8 +144,12 @@ body {
 }
 
 .btn-gradient:hover {
-    opacity: 0.9;
-    transform: translateY(-2px);
+    background: linear-gradient(120deg, #1a6bb5, #1ab86a);  /* Более яркие цвета */
+    opacity: 1;
+    transform: translateY(-3px) scale(1.03);  /* Подъём + лёгкое увеличение */
+    box-shadow: 
+        0 8px 20px rgba(21, 87, 153, 0.4),  /* Синяя тень */
+        0 4px 10px rgba(21, 153, 87, 0.3);  /* Зелёная тень */
 }
 
 /* === GRID FOR CARDS === */
@@ -154,7 +161,7 @@ body {
 }
 
 .card {
-    background: #fafafa;
+    background: #dcfff167;
     border: 1px solid #eaecef;
     border-radius: 8px;
     padding: 1.0rem 1.2rem;  /* Было 2rem со всех сторон */
@@ -177,8 +184,8 @@ body {
 }
 
 .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transform: translateY(-0.1px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
 }
 
 /* === FOOTER === */
