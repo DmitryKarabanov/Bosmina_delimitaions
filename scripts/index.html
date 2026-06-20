@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scripts - Bosmina Project</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <!-- Единая шапка для ВСЕХ страниц -->
+    <header class="page-header">
+        <h1 class="project-name"><i>Bosmina</i> Integrative Species Delimitation</h1>
+        <p class="project-tagline">Supplementary Materials & Interactive Visualizations</p>
+        
+        <a href="https://github.com/DmitryKarabanov/Bosmina" target="_blank" class="github-btn">
+            <svg viewBox="0 0 16 16" aria-hidden="true">
+                <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+            </svg>
+            View on GitHub
+        </a>
+    </header>
+
+    <nav class="main-nav">
+        <a href="../index.html">Home</a>
+        <a href="../data/index.html">Data</a>
+        <a href="index.html">Scripts</a>
+        <a href="../results/index.html">Results</a>
+        <a href="../interactive/index.html">Interactive</a>
+    </nav>
+
+    <main class="main-content">
+        <h1>💻 Analysis Scripts</h1>
+        <p>Complete source code for all computational analyses.</p>
+
+        <h2>Contents</h2>
+<h3>Delimitation Methods</h3>
+
+    <p><code>ABGD_like_delimitation.R</code> — ABGD-like algorithm with recursive partitioning. Searches for barcode gap in distance distribution and performs hierarchical clustering with two distance variants (patristic & K80).</p>
+    
+    <p><code>ASAP-like_delimitation.R</code> — ASAP-like method comparing two distance metrics. Hierarchical clustering with automatic threshold optimization maximizing intra/ to inter-cluster distance ratio (patristic & pairwise K80 variants).</p>
+    
+    <p><code>bGMYC4_interactive.R</code> — Bayesian General Mixed Yule-Coalescent model with interactive visualization. Uses our <a href="https://github.com/DmitryKarabanov/bGMYC4" target="_blank">bGMYC4 package</a>.</p>
+    
+    <p><code>CAOS_delimitation.R</code> — Universal CAOS (Character Allowing Separation Of groups) pipeline. Compares 5 delimitation schemes (Ward, ASAP, bGMYC, KoT, bPTP), searches for diagnostic characters, and identifies conflicts between methods.</p>
+    
+    <p><code>Delimitation_heatmap_interactive.R</code> — Interactive comparison charts of all delimitation methods + phylogenetic tree. Branch coloring by bGMYC MOTUs, matrix showing results from all methods side-by-side.</p>
+    
+    <p><code>GMYC-delimitation.R</code> — GMYC (General Mixed Yule-Coalescent) with single and multi-threshold models. Includes ultrametrization via <code>ape::chronos()</code> and outgroup filtering.</p>
+    
+    <p><code>Heatmap_CoMa.R</code> — Interactive agreement matrix (CoMa) of all methods + colored tree. N×N matrix quantifying consistency between all delimitation methods, combined with phylogenetic tree visualization using <code>ggtree</code> and <code>plotly</code>.</p>
+    
+    <p><code>KoT-delimitation.R</code> — KoT (K over Theta ratio) post-hoc validation of locMin scheme. Calculates inter-cluster genetic distances (K80) and intra-cluster diversity (Watterson's θ), applies three thresholds (t=4, 6, 8) for standard/strict/very strict criteria.</p>
+    
+    <p><code>locMin_delimitation.R</code> — Calculation of local minima (locMin) in distance distribution. Two variants: patristic distances from tree and pairwise K80 distances from sequences.</p>
+    
+    <p><code>PTP_parser_webRes.R</code> — bPTP results parser. Reads output from Bayesian PTP web server and converts it into structured CSV format with MOTU assignments.</p>
+    
+    <p><code>RefinedThreshold_delimitation.R</code> — Refined Fixed Threshold method. Single-linkage clustering with validation and recursive splitting for problematic clusters. Two variants: patristic (threshold=0.10) and K80 (threshold=0.03).</p>
+    
+    <p><code>Ward_delimitation.R</code> — Ward's hierarchical clustering method with automatic threshold selection via local minima search. Two distance variants: patristic and K80.</p>
+
+
+        <h3>Genetic diversity and Net</h3>
+        <p>Scripts for calculating genetic diversity and constructing an interactive haplotype network.</p>
+        
+        <h2>Repository Links</h2>
+        <p>Browse the scripts directory on GitHub:</p>
+        
+        <a href="https://github.com/DmitryKarabanov/Bosmina/tree/main/scripts/delimitation" target="_blank" class="btn btn-gradient">
+            📁 View R-scripts
+        </a>
+        <a href="https://github.com/DmitryKarabanov/Bosmina/tree/main/scripts/genepop" target="_blank" class="btn btn-gradient">
+            📁 View Python-scripts
+        </a>
+
+        <h2>Requirements</h2>
+        <ul>
+            <li><strong>R >= 4.5</strong>
+                    <p>Packages: <code>ape</code>, <code>dplyr</code>, <code>tidyr</code>, etc. and <code>Bioconductor</code> packages for phylogenetic analysis</p>
+            </li>
+            <li><strong>Python >= 3.1</strong>
+                    <p>Packages: <code>numpy</code>, <code>scipy</code>, <code>pyvis</code>, etc.</p>
+            </li>
+        </ul>
+
+        <h2>Usage</h2>
+        <p>For bGMYC delimitation you need our <a href="https://github.com/DmitryKarabanov/bGMYC4" target="_blank">bGMYC4 package</a> and R≥4.5: <code>bGMYC4_interactive.R</code></p>
+        <p>For nice haplotype network use Anaconda / Python≥3.1: <code>network_new.py</code></p>
+
+        <h2>Output</h2>
+        <p>Scripts generate results in the <a href="../results/index.html">Results</a> directory.</p>
+
+         <div style="margin-top: 2rem;">
+            <a href="../index.html" class="btn" style="padding: 0.5rem 1rem; font-size: 0.85rem;">← Back to Home</a>
+            <a href="../results/index.html" class="btn" style="padding: 0.5rem 1rem; font-size: 0.85rem;">View Results →</a>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p>
+            <strong>Dmitry Karabanov</strong> | 
+            <a href="https://www.researchgate.net/profile/Dmitry-Karabanov" target="_blank">ResearchGate</a>
+        </p>
+        <p>
+            <small>This supplementary material is openly available under the GNU GPL v3.0 License. Last updated: 2026.</small>
+        </p>
+    </footer>
+
+</body>
+</html>
