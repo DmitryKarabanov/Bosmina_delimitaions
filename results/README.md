@@ -2,7 +2,7 @@
 
 This directory contains all outputs from the integrative delimitation analysis.
 
-## Subdirectories
+## Results
 
 **[Delimitation Results](delimitation/)**
 
