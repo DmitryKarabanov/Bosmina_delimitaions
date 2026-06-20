@@ -27,11 +27,6 @@ Each visualization is a self-contained HTML file that can be opened directly in 
 2. Double-click to open in your web browser
 3. Use mouse to **zoom**, **pan**, and **hover** for details
 
-### Option 3: Embed in presentations
-- Take screenshots for static figures
-- Use browser "Print → Save as PDF" for publication-ready outputs
-- Export Plotly data via the camera icon in the toolbar
-
 ---
 
 ##  Featured Visualization
@@ -51,8 +46,6 @@ Our main interactive figure combines two synchronized views:
 Both panels share the same Y-axis, so each row in the matrix corresponds exactly to a tip on the tree.
 
 ---
-
-
 
 ##  Troubleshooting
 
